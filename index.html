@@ -4,17 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SLAYSPACE</title>
-</head>
+    <link rel="stylesheet" href="index.css">
+</head> 
 <body>
     <h1>SLAYSPACE!</h1>
-    <div class="About">
-        <h3>Whats in SlaySpace?</h3>
-        <p>SlaySpace is not just a website, but your virtual bff!. An app created just to make sure your mood is always on check. Can you imagine?
+    <div class="container">
+
+    <!-- about section -top left of the page -->
+
+        <div class="About">
+           <h3>Whats in SlaySpace?</h3>
+           <p>SlaySpace is not just a website, but your virtual bff!. An app created just to make sure your mood is always on check. Can you imagine?
             This is your go-to space for daily motiVation, guidance ,self-love tips and uplifing vibes. We believe every woman deserves a daily reminder that she is fierce, powerful and unstoppable!
-        </p>
-    </div>
+            </p>
+        </div>
+
+    <!-- today updates section -top right of the page-->
+
+         <section class="Today">
+            <h2>Hey Queen!</h2>
+            <p> What do you plan on doing today? Any updates? Wanna tell us how you're day is going? Spill the tea!</p>
+         </section>
+
+    <!--feeling updates - bottom left of page -->
+
+        <section class="updates">
+             <label for="mood">How are you feeling today?</label>
+             <select id="mood">
+                 <option value="" disabled selected> Select your mood</option>
+                 <option value=Happy>Happy</option>
+                 <option value=Sad>Sad</option>
+                 <option value=Motivated>Motivated</option>
+                 <option value=Heartbroken>Heartbroken</option>
+                 <option value=Glamourous>Glamourous</option>
+                 <option value="other">other</option>
+            </select>
+         </section>
+
+         <!-- quotes - bottom right of page-->
+         <section class="quotes">
+             <p>Discover uplifting Quotes and Daily Affirmations</p>
+
+         </section>
 
 
-    
+
+    </div>   
+
+    <script src="index.js"></script>
 </body>
 </html>
