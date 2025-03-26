@@ -13,23 +13,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head> 
 <body>
+    <h1> <u>WELCOME TO SLAYSPACE</u></h1>
     <div class="container">
+        <!-- Item 1: LOGO -->
         <div class="item item1">
-            <h1><u>About Us</u></h1>
-            <div class="content">
-                <img src="https://i.pinimg.com/736x/10/20/97/10209728c47a9f656c5f1431039af354.jpg" class="about-image">
-                <p>SlaySpace is not just a website, but your virtual bff!<br>
-                An app just to make sure your mood is always on check.Can you imagine?
-                This is your go-to space for daily motivation,guidance,self love tips,and uplifting vibes.We believe every woman desrves a daily reminder that she is fierce,powerful and unstoppable.</p> 
-            </div>      
+            <h1><u>SLAYSPACE</u></h1>
         </div>
+
+        <!-- Item 2: SlaySpace Description -->
         <div class="item item2">
-            <h1><u>Testimonials</u></h1>
+            <h1><u>What's in this Haven?</u></h1>
+            <p>SlaySpace is not just a website,but your virtual bff!<br>
+            An app created just to make sure your mood is always on check.Can you imagine?<br>
+             This is your go-to space for daily motivation, guidance, self-love tips and uplifting vibes.We believe every woman deserves a daily reminder that she is fierce, powerful and unstoppable!</p>
         </div>
+
+        <!-- Item 3: Mood Selector -->
         <div class="container-2 item item3">
+
+            <!-- Mood selection form-->
             <div class="item3-1">
-                <h1><u>How are you feeling today?</u></h1>
-                <form action="">
+                <h1><u>How are you feeling today Queen?</u></h1>
+                <form id="mood-form">
                     <label for="moods">Select Mood: </label>
                     <select id="moods">
                         <optgroup label="Positive Moods">
@@ -46,15 +51,31 @@
                             <option value="frustrated">Frustrated</option>
                         </optgroup>
                     </select>
-                    <input id="submit-btn" type="submit">
+                    <input id="submit-btn" type="submit" value="Submit">
                 </form>
             </div>
-            <div class="item3-2">
-                <h1>Mood:</h1>
+
+            <!-- Display Mood -->
+            <div class="item3-2" id="mood-display" style="display: none;">
+                <div id="mood-background" class="item3-2-1">
+                    <h1>Mood:</h1>
+                    <div class="mood-card">
+                        <p id="mood-text"><img id="mood-icon" src="./assets/icons/formkit_sad.png" alt="mood icon">SAD</p>
+                        <button id="update-btn">UPDATE</button>
+                        <button id="delete-btn">DELETE</button>
+                    </div>
+                    <h2 id="playlist-description">Need a playlist for your mood?</h2>
+                    <div class="spotify-container">
+                        <a id="spotify-link" href="#" target="_blank"><img src="./assets/icons/spotify.png" alt="spotify icon"></a>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- Item 4: Quotes -->
         <div class="item item4">
-            <h1><u>Quotes</u></h1>
+            <h1><u>Quotes and Affirmations</u></h1>
+            <div class="quote-container"></div>
         </div>
     </div>   
 
