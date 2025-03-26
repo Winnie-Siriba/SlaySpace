@@ -4,53 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SLAYSPACE</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head> 
 <body>
-    <h1>SLAYSPACE!</h1>
     <div class="container">
-
-    <!-- about section -top left of the page -->
-
-        <div class="About">
-           <h3>Whats in SlaySpace?</h3>
-           <p>SlaySpace is not just a website, but your virtual bff!. An app created just to make sure your mood is always on check. Can you imagine?
-            This is your go-to space for daily motiVation, guidance ,self-love tips and uplifing vibes. We believe every woman deserves a daily reminder that she is fierce, powerful and unstoppable!
-            </p>
+        <div class="item item1">
+            <h1><u>About Us</u></h1>
+            <div class="content">
+                <img src="https://i.pinimg.com/736x/10/20/97/10209728c47a9f656c5f1431039af354.jpg" class="about-image">
+                <p>SlaySpace is not just a website, but your virtual bff!<br>
+                An app just to make sure your mood is always on check.Can you imagine?
+                This is your go-to space for daily motivation,guidance,self love tips,and uplifting vibes.We believe every woman desrves a daily reminder that she is fierce,powerful and unstoppable.</p> 
+            </div>      
         </div>
-
-    <!-- today updates section -top right of the page-->
-
-         <section class="Today">
-            <h2>Hey Queen!</h2>
-            <p> What do you plan on doing today? Any updates? Wanna tell us how you're day is going? Spill the tea!</p>
-         </section>
-
-    <!--feeling updates - bottom left of page -->
-
-        <section class="updates">
-             <label for="mood">How are you feeling today?</label>
-             <select id="mood">
-                 <option value="" disabled selected> Select your mood</option>
-                 <option value=Happy>Happy</option>
-                 <option value=Sad>Sad</option>
-                 <option value=Motivated>Motivated</option>
-                 <option value=Heartbroken>Heartbroken</option>
-                 <option value=Glamourous>Glamourous</option>
-                 <option value="other">other</option>
-            </select>
-         </section>
-
-         <!-- quotes - bottom right of page-->
-         <section class="quotes">
-             <p>Discover uplifting Quotes and Daily Affirmations</p>
-
-         </section>
-
-
-
+        <div class="item item2">
+            <h1><u>Testimonials</u></h1>
+        </div>
+        <div class="container-2 item item3">
+            <div class="item3-1">
+                <h1><u>How are you feeling today?</u></h1>
+                <form action="">
+                    <label for="moods">Select Mood: </label>
+                    <select id="moods">
+                        <optgroup label="Positive Moods">
+                            <option value="happy">Happy</option>
+                            <option value="excited">Excited</option>
+                            <option value="loved">Loved</option>
+                        </optgroup>
+                        <optgroup label="Neutral Moods">
+                            <option value="bored">Bored</option>
+                        </optgroup>
+                        <optgroup label="Negative Moods">
+                            <option value="sad">Sad</option>
+                            <option value="angry">Angry</option>
+                            <option value="frustrated">Frustrated</option>
+                        </optgroup>
+                    </select>
+                    <input id="submit-btn" type="submit">
+                </form>
+            </div>
+            <div class="item3-2">
+                <h1>Mood:</h1>
+            </div>
+        </div>
+        <div class="item item4">
+            <h1><u>Quotes</u></h1>
+        </div>
     </div>   
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
