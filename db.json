@@ -1,0 +1,47 @@
+{
+    "happy": [
+      { "id": 1, "quote": "You deserve happiness and everything that comes with it." },
+      { "id": 2, "quote": "You are a walking ray of sunshine,and you shine brighter each day!" },
+      { "id": 3, "quote": "Happiness is an inside job,accessorise as you should"},
+      { "id": 4, "quote":  "Slay today like its your redcarpet!" },
+      { "id": 5, "quote":  "Joy looks good on you babe!" }
+    ],
+    "excited": [
+      { "id": 1, "quote": "Excitement is truly your skincare-cause you're glowing!" },
+      { "id": 2, "quote": "Stay classy and sassy!" },
+      { "id": 3, "quote": "Good vibes always, nothing more!" },
+      { "id": 4, "quote": "Radiate Positivity always!" }
+      
+    ],
+    "loved": [
+      { "id": 1, "quote": "I'm so happy for you,you deserve all the love in the world!" },
+      { "id": 2, "quote": "Love is your superpower.Go girl!" },
+      { "id": 3, "quote": "Cherish the love and grow it in good places." },
+      { "id": 4, "quote": "Love is special just like you are"},
+      { "id": 5, "quote": "True love makes the universe richer. Glad you have it"}
+    ],
+    "bored": [
+      { "id": 1, "quote": "Boredom is just the universe telling you to get on your zoom!" },
+      { "id": 2, "quote": "You're too glam to be sitting around,do some makeup or start some drama, anything."},
+      { "id": 3, "quote": "Are you bored or just resting from carrying all that beauty around all day?"}
+    ],
+    "sad": [
+      { "id": 1, "quote": "Wipe those tears babe, your mascara is to expensive for this" },
+      { "id": 2, "quote": "Its okay to feel sad but dont forget- you are loved and cherished beyond your understanding" },
+      { "id": 3, "quote": "Sad today, unstoppable tommorrow!" }
+    ],
+    "angry": [
+      { "id": 1, "quote": "Anger doesn't even match your outfit girl,let it go!"},
+      { "id": 2, "quote": "Wear some more lipgloss and move on. Anger doesn't make you any prettier babe"},
+      { "id": 3, "quote": "Breathe queen, dont let anyone kill your vibe" },
+      { "id": 4, "quote": "Your peace is too expensive to be distubed,fix it ASAP!"}
+    ],
+    "frustrated": [
+      { "id": 1, "quote": "Breathe, fix your crown, and handle it like the queen you are." },
+      { "id": 2, "quote": "Pause,reset, and remind yourself that you're that girl!" },
+      { "id": 3, "quote": "Frustration is normal, just dont let it dim your sparkle" },
+      { "id": 4, "quote": "Frustration is your inner boss telling you to level up"},
+      { "id": 5, "quote": "You didnt come this far to give up adjust your vibe and keep slaying"} 
+    ]
+  }
+    
