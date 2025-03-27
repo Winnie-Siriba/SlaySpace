@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fetch quotes from db.json
     async function getQuotes(mood) {
       try {
-          const response = await fetch('http://localhost:3000/' + mood);
+          const response = await fetch('https://my-json-server.typicode.com/Winnie-Siriba/SlaySpace' + mood);
           const data = await response.json();
         
           displayQuote(data);
